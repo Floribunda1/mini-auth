@@ -25,7 +25,7 @@ export class User {
   @UpdateDateColumn()
   update_time: Date;
 
-  @ManyToMany(() => Role)
+  @ManyToMany(() => Role, (role) => role.users)
   @JoinTable()
   roles: Role[];
 }
