@@ -50,18 +50,17 @@ class User_Role_Join {
 - [x] 接入 OAuth, 创建用户，返回 session
 - [x] 获取用户信息（包含 role）
 - [x] 更新用户信息
-- [ ] 删除用户
+- [x] 删除用户
   
 
-- [ ] 为用户赋予 role
-- [ ] 删除用户某一 role
+- [x] 为用户赋予 role
+- [x] 删除用户某一 role
 
 #### role
 
-- [ ] 创建 role
-- [ ] 修改 role 信息
-- [ ] 删除 role
-  
+- [x] 创建 role
+- [x] 修改 role 信息
+- [x] 删除 role
 
 - [ ] 查看 role 权限列表
 - [ ] 增加 role 的权限
